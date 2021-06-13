@@ -3,6 +3,11 @@ const app = express();
 const cookieParser = require('cookie-parser')
 const mainRoutes = require('./routes/index')
 const cardRoutes = require('./routes/cards.js')
+let port = process.env.PORT;
+
+if (port == null || port == "") {
+    port = 8000;
+  }
 
 app.use(cookieParser())
 app.use(express.urlencoded({extended: false}))
@@ -23,4 +28,4 @@ app.use((err, req, res, next) => {
     res.render('error')
 })
 
-app.listen(4040, () => console.log('The application is running'));
+app.listen(port, () => console.log('The application is running'));
