@@ -3,26 +3,30 @@
         "title": "JavaScript Flashcards",
         "cards": [
             {
-                "question": "¿Cuál es la forma de gobierno de Estados Unidos?",
-                "answer": "República, República federal basada en la Constitución, Democracia representativa"
-                },
-                {
-                "question": "¿Cuál es la ley suprema de la nación? *",
-                "answer": "La Constitución (de EE.UU.)"
-                },
-                {
-                "question": "Nombre una cosa que hace la Constitución de Estados Unidos.",
-                "answer":    "Establece el gobierno, Define los poderes del gobierno, Define las partes del gobierno, Protege los derechos de las personas"
-                },
-                {
-                "question": "La Constitución de Estados Unidos comienza con las palabras Nosotros, el Pueblo. ¿Qué significa Nosotros, el Pueblo?",
-                    
-                "answer": "Soberanía del pueblo, Consentimiento de los gobernados, La gente debe goAutogobiernobernarse a sí misma, (Ejemplo de) contrato social"
-                },
-                {
-                "question": "¿Cómo se rhacen los cambios a la Constitución de Estados Unidos?",
-                "answer":    "Enmiendas, El proceso de enmienda"
-                }
+                "question": "What language are Express apps written in?",
+                "hint": "It starts with a \"J\"",
+                "answer": "JavaScript"
+            },
+            {
+                "question": "What is one way a website can store data in a user's browser?",
+                "hint": "They are delicious with milk",
+                "answer": "Cookies"
+            },
+            {
+                "question": "What is a common way to shorten the response object's name inside middleware?",
+                "hint": "It has the same abbreviation as \"resolution\"",
+                "answer": "res"
+            },
+            {
+                "question": "How many different values can booleans have?",
+                "hint": "Think: binary",
+                "answer": "2"
+            },
+            {
+                "question": "Which HTML element can contain JavaScript?",
+                "hint": "It starts with an \"s\"",
+                "answer": "<script>"
+            }
         ]
     }
 }
